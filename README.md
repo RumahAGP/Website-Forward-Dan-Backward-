@@ -1,11 +1,11 @@
 # 🚀 MENJALANKAN PROJECT
 Pastikan project disimpan di folder:
 
-C:\xampp\htdocs\Forwardchaining](http://localhost/Forwardchaining/login.php
+C:\xampp\htdocs\Forwardchaining
 
 Lalu jalankan melalui browser dengan membuka:
 
-http://localhost/Forwardchaining
+http://localhost/Forwardchaining/login.php
 
 # 🔐 LOGIN ADMIN
 Untuk masuk sebagai admin, gunakan akun berikut:
