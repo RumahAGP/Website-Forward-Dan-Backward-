@@ -1,0 +1,185 @@
+/* =========================================
+   1. GLOBAL STYLE (Berlaku untuk semua)
+   ========================================= */
+body {
+    background-color: #f4f6f9; /* Abu-abu muda enak di mata */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+}
+
+a { text-decoration: none; }
+
+/* Kartu Standar */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    background-color: #fff;
+}
+
+.card-header {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    font-weight: bold;
+    padding: 15px;
+}
+
+/* =========================================
+   2. HALAMAN LOGIN & REGISTER
+   ========================================= */
+.bg-login {
+    background-color: #eef2f6; /* Abu-abu soft */
+    background-image: radial-gradient(circle at 50% 50%, #ffffff 0%, #eef2f6 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-login {
+    width: 100%;
+    max-width: 400px;
+    border: none;
+    border-radius: 12px; /* Sudut tumpul */
+    box-shadow: 0 10px 40px rgba(0,0,0,0.08); /* Bayangan halus */
+    padding: 40px;
+    background: #ffffff;
+    border-top: 5px solid #4e73df; /* Aksen biru di atas kartu */
+}
+
+.card-login h3 {
+    color: #333;
+    font-weight: 800;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.form-floating > label {
+    color: #999;
+}
+
+.btn-primary {
+    background-color: #4e73df;
+    border-color: #4e73df;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #2e59d9;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(78, 115, 223, 0.4);
+}
+
+/* =========================================
+   3. DASHBOARD ADMIN
+   ========================================= */
+.navbar-admin {
+    background: #1e293b !important; /* Biru Gelap Modern */
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.icon-box {
+    font-size: 3rem;
+    opacity: 0.3;
+}
+
+/* Efek Hover pada Kartu Statistik */
+.card-stat {
+    border: none;
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.08);
+    background-color: #ffffff;      /* kartu putih */
+    color: #1d4ed8;                 /* teks BIRU */
+}
+
+/* Supaya judul kecil tidak terlalu biru pekat */
+.card-stat h6 {
+    color: #6b7280;                 /* abu-abu lembut */
+}
+
+/* Angka besar tetap biru */
+.card-stat h2 {
+    color: #1d4ed8;
+}
+
+.card-stat:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+/* Warna Spesifik Kartu */
+.bg-gradient-primary { background: linear-gradient(45deg, #4e73df, #224abe); }
+.bg-gradient-success { background: linear-gradient(45deg, #1cc88a, #13855c); }
+.bg-gradient-warning { background: linear-gradient(45deg, #f6c23e, #dda20a); color: #fff !important; }
+.bg-gradient-danger  { background: linear-gradient(45deg, #e74a3b, #be2617); }
+
+/* =========================================
+   4. HALAMAN DIAGNOSA (PASIEN)
+   ========================================= */
+.scroll-area {
+    max-height: 450px;
+    overflow-y: auto;
+    border: 1px solid #e3e6f0;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* Item Gejala */
+.gejala-item {
+    padding: 8px 12px;
+    border-bottom: 1px solid #f0f0f0;
+    transition: background 0.2s;
+    cursor: pointer;
+}
+
+.gejala-item:hover {
+    background-color: #eef2f7;
+}
+
+.gejala-item:last-child {
+    border-bottom: none;
+}
+
+/* Checkbox lebih besar */
+.form-check-input {
+    width: 1.3em;
+    height: 1.3em;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* Hasil Diagnosa */
+.result-box {
+    border-left: 5px solid #0d6efd;
+    background-color: #e7f1ff;
+    padding: 20px;
+    border-radius: 5px;
+}
+/* === BACKWARD CHAINING STEPS === */
+.step-badge {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #e5edff;
+    color: #1d4ed8;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    margin-right: 8px;
+}
+
+.step-title {
+    font-weight: 600;
+    color: #111827;
+}
+
+.card-step {
+    border-left: 4px solid #10b981; /* hijau */
+    border-radius: 10px;
+}
